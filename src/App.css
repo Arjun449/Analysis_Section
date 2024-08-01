@@ -1,59 +1,4 @@
-/* src/App.css */
-/* .dashboard {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-}
-
-.top-row,
-.middle-row,
-.bottom-row {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.card {
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 20%;
-    text-align: center;
-}
-
-.value {
-    font-size: 24px;
-    font-weight: bold;
-    color: green;
-}
-
-.details {
-    font-size: 12px;
-    color: grey;
-}
-
-.card {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.chart-container {
-    width: 100%;
-    height: 250px;
-    /* Adjust height as needed */
-/* position: relative;
-}
-
-canvas {
-    width: 100% !important;
-    height: 100% !important;
-}  */
-/* src/App.css */
+/* src/App.css
 .dashboard {
     display: flex;
     flex-direction: column;
@@ -80,9 +25,9 @@ canvas {
     position: relative;
     height: auto;
     /* Adjust height as needed */
-    overflow: visible;
-    /* Allow overflow to be visible */
-}
+/* overflow: visible; */
+/* Allow overflow to be visible */
+/* }
 
 .value {
     font-size: 24px;
@@ -99,6 +44,84 @@ canvas {
     width: 100%;
     height: 250px;
     /* Adjust height as needed */
+/* position: relative;
+}
+
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Additional styles for the Dashboard */
+/* .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.col {
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.col h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+} */
+/* src/App.css */
+/* src/App.css */
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.top-row,
+.middle-row,
+.bottom-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    height: auto;
+    overflow: visible;
+}
+
+.value {
+    font-size: 24px;
+    font-weight: bold;
+    color: green;
+}
+
+.details {
+    font-size: 12px;
+    color: grey;
+}
+
+.chart-container {
+    width: 100%;
+    height: 250px;
     position: relative;
 }
 
@@ -132,4 +155,9 @@ canvas {
 .col h3 {
     margin-bottom: 20px;
     font-size: 18px;
+}
+
+.speedometer {
+    width: 100%;
+    height: 250px;
 }
